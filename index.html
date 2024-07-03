@@ -33,7 +33,7 @@
           <div class="card card-width">
             <div class="card-header d-flex justify-content-between">
               <span>To do</span>
-              <span>5</span>
+              <span id="toDo">5</span>
             </div>
             <div class="card-body" id="taskTodoList">
               <!-- Card -->
@@ -46,7 +46,7 @@
           <div class="card card-width">
             <div class="card-header d-flex justify-content-between">
               <span>In Progress</span>
-              <span>0</span>
+              <span id="inProgress">0</span>
             </div>
             <div class="card-body" id="taskProgressList"></div>
           </div>
@@ -55,7 +55,7 @@
           <div class="card card-width">
             <div class="card-header d-flex justify-content-between">
               <span>Done</span>
-              <span>0</span>
+              <span id="done">0</span>
             </div>
             <div class="card-body" id="taskDoneList"></div>
           </div>
@@ -64,7 +64,7 @@
           <div class="card card-width">
             <div class="card-header d-flex justify-content-between">
               <span>Blocked</span>
-              <span>0</span>
+              <span id="blocked">0</span>
             </div>
             <div class="card-body" id="taskBlockedList"></div>
           </div>
@@ -104,13 +104,6 @@
             </select>
           </div>
           <div class="modal-footer">
-            <!-- <button
-                            type="button"
-                            class="btn btn-secondary"
-                            data-bs-dismiss="modal"
-                        >
-                            Close
-                        </button> -->
             <button
               type="button"
               class="btn btn-primary"
